@@ -26,7 +26,7 @@ function createWindow() {
         mainWindow.webContents.openDevTools();
     } else {
         // mainWindow.removeMenu();
-        mainWindow.loadFile(path.join(__dirname, 'build', 'index.html'));
+        mainWindow.loadFile(path.join(__dirname, '../build', 'index.html'));
     }
 }
 
