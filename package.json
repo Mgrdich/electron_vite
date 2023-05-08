@@ -17,7 +17,7 @@
     "electron:odev": "cross-env IS_DEV=true electron-forge start",
     "electron:build": "electron-forge make",
     "electron:package": "electron-forge package",
-    "electron:dev": "concurrently -k \"vite\" \"npm run electron:dev\""
+    "electron:dev": "concurrently -k \"vite\" \"npm run electron:odev\""
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
