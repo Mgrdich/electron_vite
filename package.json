@@ -15,7 +15,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "electron:odev": "cross-env IS_DEV=true electron-forge start",
-    "electron:build": "electron-forge make",
+    "electron:build": "yarn build && electron-forge make",
     "electron:package": "electron-forge package",
     "electron:dev": "concurrently -k \"vite\" \"npm run electron:odev\""
   },
